@@ -1,4 +1,6 @@
-# TensorFlow Classification Project
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polenoz/Deep-Learning/blob/main/DeepLearning_Projekt.ipynb)
+
+# Deep Learning Project
 
 In this project, a neural network model is built using TensorFlow and Keras. The goal is to classify bank notes as real or fake based on the given features.
 
@@ -8,54 +10,36 @@ The project uses the file:
 
 - Bank_Note_Data.csv
 
-Make sure the file is in the same directory as the notebook.
+The dataset is loaded directly from the GitHub repository, so no manual upload is needed when the notebook is opened in Google Colab.
 
 ## Required libraries
 
-This project uses the following libraries:
-
 - pandas
 - numpy
-- matplotlib
-- seaborn
 - scikit-learn
 - tensorflow
 - keras
+- jupyter
 
 ## How to run
 
-You can run the notebook in Google Colab:
-
-- Open the notebook
-- Upload the dataset file
+- Click the badge at the top
+- Open the notebook in Google Colab
 - Run all cells
 
-You can also run it locally:
+The dataset is loaded automatically.
 
-- Install the required libraries
-- Open the notebook with Jupyter
-- Run all cells
-
-Example installation:
-
-pip install pandas numpy matplotlib seaborn scikit-learn tensorflow keras jupyter
-
-## What is done in this notebook
+## What is done
 
 - The dataset is loaded and explored
 - Data is prepared for training
 - Features are scaled
-- A neural network model is created with Keras
+- A neural network model is created
 - The model is trained
 - Predictions are made
-- The results are evaluated
-- A random forest model is also used for comparison
+- Results are evaluated
 
 ## Evaluation
 
-The model is evaluated using:
-
 - Confusion matrix
 - Classification report
-
-These metrics show how well the model performs on the test data.
